@@ -1,0 +1,6 @@
+#暴露所有endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
